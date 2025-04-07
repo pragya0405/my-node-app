@@ -27,4 +27,7 @@ jobs:
 
 
       - name: Run tests
-        run: sudo npx jest
+        run: sudo npm test
+
+      - name: Run tests
+        run:  npm test
